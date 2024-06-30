@@ -84,7 +84,7 @@ h6,
     position: relative;
     margin-left: 25px;
     padding: 35px 0;
-    color: var(--light) !important;
+    color: var(--dark) !important;
     outline: none;
     transition: .5s;
 }
@@ -146,6 +146,7 @@ h6,
         top: 0;
         left: 0;
         border-bottom: 1px solid rgba(256, 256, 256, .1);
+        background-color: rgb(255, 255, 255);
         z-index: 999;
     }
     
