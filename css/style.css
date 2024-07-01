@@ -3,7 +3,8 @@
     --primary: #2124B1;
     --secondary: #4777F5;
     --light: #F7FAFF;
-    --dark: #1D1D27;
+    --dark:  black;
+    --tercer: #45dbdb;
 }
 
 
@@ -251,7 +252,7 @@ h6,
 /*** Service ***/
 .service-item {
     position: relative;
-    height: 350px;
+    height: 450px;
     padding: 30px 25px;
     background: #FFFFFF;
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
@@ -523,4 +524,7 @@ h6,
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+.img-fluid{
+   
 }

@@ -91,6 +91,29 @@
             }
         }
     });
+    // Banner carousel
+    $(".banner-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1000,
+        margin: 25,
+        dots: false,
+        loop: true,
+        center: true,
+        responsive: {
+            0:{
+                items:1
+            },
+            576:{
+                items:1
+            },
+            768:{
+                items:1
+            },
+            992:{
+                items:1
+            }
+        }
+    });
 
 
     // Portfolio isotope and filter
